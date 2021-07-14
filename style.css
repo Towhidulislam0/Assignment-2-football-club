@@ -2,10 +2,55 @@
 body{
     font-family: 'Poppins', sans-serif;
     background: #FFFFFF;
+    margin: 0;
 }
 /*----------------
 Head section style start 
 ----------------- */
+.header{
+background-color: #2D25A0;
+margin-bottom: 70px;
+}
+/* navigtion bar style */
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation-box{
+    width: 1200px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 42px;
+}
+.navigasion-links{
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+
+/* Head banner style */
+.top-banner{
+    display: flex;
+}
+.banner-name{
+    font-size: 64px;
+    font-weight: bold;
+}
+.half-width{
+    width: 50%;
+}
+.banner-image{
+    width: 90%;
+    margin-left: 10%;
+}
+.bnner-text{
+    margin-left: 7%;
+    color: white;
+}
 
 /* ----------------
 Head section style end 
@@ -108,10 +153,9 @@ Main section style start
     font-size: 16px;
     text-decoration: none;
     padding: 10px;
-    border-radius: 15px;
-    box-shadow: 0.1px 0.1px 40px rgba(172, 172, 172, 0.575);
+    border-radius: 10px;
 }
- .match-link:hover{
+.match-link:hover{
     background-color: #830030;
     transition: 0.3s;
 }
