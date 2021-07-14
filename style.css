@@ -111,6 +111,10 @@ Main section style start
     border-radius: 15px;
     box-shadow: 0.1px 0.1px 40px rgba(172, 172, 172, 0.575);
 }
+ .match-link:hover{
+    background-color: #830030;
+    transition: 0.3s;
+}
 /* ---------------
 Main section end 
 ----------------- */
@@ -120,6 +124,28 @@ Main section end
 /* --------------- 
 Footer section start 
 ----------------- */
+.footer{
+    margin-top: 158px;
+}
+.footer-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo-image{
+    width: 384px;
+    height: 110px;
+}
+.socil-incon{
+    color: gray;
+    font-size: 32px;
+    margin: 0 0 0 15px;
+}
+.copy{
+    font-size: 18px;
+    margin-left: 5px;
+}
 
 /* --------------- 
 Footer section end 
