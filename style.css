@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #FFFFFF;
+
+}
 /*----------------
 Head section start 
 ----------------- */
@@ -11,6 +17,45 @@ Head section end
 /* --------------- 
 Main section start
 ----------------- */
+.containar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.top-players{
+    display: grid;
+    grid-template-columns: repeat(3,330px);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+}
+.player-box{
+    width: 330px;
+    height: 474px;
+    box-shadow: 0.1px 0.1px 40px rgba(172, 172, 172, 0.418);
+    background: #FFFFFF;
+}
+.player{
+    width: 300px;
+    height: 426px;
+    margin: 15px;
+}
+.player-image{
+    width: 300px;
+    height: 256px;
+}
+.name{
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    color: #18191F;
+}
+.about{
+    color: #6C6C6C;
+    font-size: 16px;
+}
 
 /* ---------------
 Main section end 
