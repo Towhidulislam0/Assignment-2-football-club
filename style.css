@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+} */
 body{
     font-family: 'Poppins', sans-serif;
     background: #FFFFFF;
@@ -13,16 +19,16 @@ margin-bottom: 70px;
 }
 /* navigtion bar style */
 .navigation{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
 }
 .navigation-box{
-    width: 1200px;
+    margin: auto;
+    width: 80%;
     height: 45px;
     display: flex;
     justify-content: space-between;
-    margin-top: 42px;
+    padding-top: 42px;
 }
 .navigasion-links{
     text-decoration: none;
@@ -72,12 +78,11 @@ Main section style start
 }
 .top-players{
     display: grid;
-    grid-template-columns: repeat(3,330px);
+    grid-template-columns: repeat(3,1fr);
     grid-column-gap: 30px;
     grid-row-gap: 27px;
 }
 .player-box{
-    width: 330px;
     height: 474px;
     box-shadow: 0.1px 0.1px 40px rgba(172, 172, 172, 0.418);
     background: #FFFFFF;
@@ -179,7 +184,7 @@ Footer section start
     align-items: center;
 }
 .logo-image{
-    width: 384px;
+    width: 20%;
     height: 110px;
 }
 .socil-incon{
@@ -196,3 +201,51 @@ Footer section start
 /* --------------- 
 Footer section end 
 ----------------- */
+/* media qury  */
+
+@media only screen and (max-width: 600px) {
+    .header{
+        height: 120%;
+        }
+    .top-banner{
+        flex-direction: column;
+    }
+    .banner-name{
+        font-size: 20px;
+    }
+    .banner-image{
+        width: 60%;
+    }
+    .oder1{
+        order: 2;        
+    }
+    .oder2{
+        order: 1;
+    }
+    .options-link{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 25%;
+    }
+    .top-players{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .match-highlight{
+        flex-direction: column;
+    }
+    .match-name{
+        font-size: 20px;
+    }
+    .high-l{
+        width: 50%;
+        padding-left: 30%;
+    }
+    .logo-image{
+        width: 60%;
+    }
+
+}
+    
+
