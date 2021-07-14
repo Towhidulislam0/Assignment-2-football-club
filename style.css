@@ -1,22 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
     background: #FFFFFF;
-
 }
 /*----------------
-Head section start 
+Head section style start 
 ----------------- */
 
 /* ----------------
-Head section end 
+Head section style end 
 ----------------- */
 
 
 
 /* --------------- 
-Main section start
+Main section style start
 ----------------- */
+
+/* player section style */
 .containar{
     display: flex;
     flex-direction: column;
@@ -35,6 +36,7 @@ Main section start
     height: 474px;
     box-shadow: 0.1px 0.1px 40px rgba(172, 172, 172, 0.418);
     background: #FFFFFF;
+    border-radius: 10px;
 }
 .player{
     width: 300px;
@@ -44,6 +46,17 @@ Main section start
 .player-image{
     width: 300px;
     height: 256px;
+    border-radius: 10px;
+}
+.image-box{
+    width: 300px;
+    height: 256px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.player-box:hover .player-image{
+    transform: scale(1.1);
+    transition: transform 0.2s;
 }
 .name{
     font-size: 28px;
@@ -57,6 +70,47 @@ Main section start
     font-size: 16px;
 }
 
+/* Match section style  */
+.highlight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 165px;
+}
+.match-banner{
+    width: 567px;
+    height: 427px;
+    border-radius: 5px;
+    box-shadow: 0.1px 0.1px 40px rgba(172, 172, 172, 0.418);
+}
+.match-detals{
+    margin: 65px;
+    margin-left: 0;
+}
+.match-highlight{
+    display: flex;
+    width: 1100px;
+}
+.match-name{
+    font-size: 47px;
+    font-weight: bold;
+    margin: 0;
+}
+.match-about{
+    font-size: 16px;
+    color: #6C6C6C;
+}
+.match-link{
+    width: 173px;
+    height: 44px;
+    background-color:#E02C6D;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0.1px 0.1px 40px rgba(172, 172, 172, 0.575);
+}
 /* ---------------
 Main section end 
 ----------------- */
