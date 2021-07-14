@@ -170,6 +170,7 @@ Footer section start
 ----------------- */
 .footer{
     margin-top: 158px;
+    background-color: #2D25A0;
 }
 .footer-box{
     display: flex;
@@ -182,13 +183,14 @@ Footer section start
     height: 110px;
 }
 .socil-incon{
-    color: gray;
+    color: white;
     font-size: 32px;
     margin: 0 0 0 15px;
 }
 .copy{
     font-size: 18px;
     margin-left: 5px;
+    color: white;
 }
 
 /* --------------- 
